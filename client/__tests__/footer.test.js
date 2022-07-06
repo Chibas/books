@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import Footer from "../footer";
+import Footer from "../components/footer";
 
 it('renders correctly', () => {
   const tree = renderer

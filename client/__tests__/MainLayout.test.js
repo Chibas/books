@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import MainLayout from "../MainLayout";
+import MainLayout from "../layout/MainLayout";
 
 it('renders correctly', () => {
   const tree = renderer

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react"
-import Books from "../index";
-import { getStaticProps } from "../index";
+import Books from "../pages/books/index";
+import { getStaticProps } from "../pages/books/index";
 import axios from "axios";
 
 jest.mock("axios");

@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import NavBar from '../navbar';
+import NavBar from '../components/navbar';
 
 it('renders correctly', () => {
   const tree = renderer

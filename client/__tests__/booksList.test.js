@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react"
-import BooksList from "../booksList";
+import BooksList from "../components/booksList";
 
 const mockData = [
   {

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from '@testing-library/user-event';
-import BookDetails from "../[id]";
-import { getServerSideProps } from "../[id]";
+import BookDetails from "../pages/books/[id]";
+import { getServerSideProps } from "../pages/books/[id]";
 import * as axios from "axios";
 import * as nextRouter from 'next/router';
 

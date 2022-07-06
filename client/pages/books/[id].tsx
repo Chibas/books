@@ -59,7 +59,6 @@ const BookDetails: React.FC<BookProps> = ({ book, booksWithSameAuthor }) => {
 
 export default BookDetails;
 
-
 export const getServerSideProps =  async (context) => {
   const id: string = context.params.id;
   const res: AxiosResponse = await axios.get('https://hokodo-frontend-interview.netlify.app/data.json'); // with real BE it would be a single entiry request, so it goes for author
