@@ -1,0 +1,78 @@
+.backButton {
+  margin-bottom: 16px;
+}
+
+.bookCard h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.bookCard h6 {
+  color: #a7a7a7;
+}
+
+.bookCard img {
+  height: 100%;
+}
+
+.slider_wrapper {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.slider_wrapper h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.slider h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.slider {
+  display: flex;
+  flex: none;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  height: var(--slideHeight);
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  margin-bottom: 20px;
+}
+
+.slider .slider_slide {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: var(--slideWidth);
+  min-width: var(--slideWidth);
+  height: calc(var(--slideHeight) - 10px);
+  min-height: calc(var(--slideHeight) - 10px);
+  padding: 0 0 20px 0;
+  margin: 0 10px;
+  scroll-snap-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.slider_slide_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.slider_slide_image {
+  width: 100%;
+}
+
+.slider_slide_link {
+  text-decoration: none;
+  cursor: pointer;
+}

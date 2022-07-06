@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+	--slideHeight: 310px;
+  --slideWidth: 280px;
+}

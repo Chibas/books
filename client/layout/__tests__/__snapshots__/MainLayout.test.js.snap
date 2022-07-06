@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <header
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-elhp89-MuiSvgIcon-root"
+          data-testid="LocalLibraryIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.19 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55zM12 8c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"
+          />
+        </svg>
+        <a
+          className="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-sdokh0-MuiTypography-root"
+          href="/"
+        >
+          Bookap
+        </a>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-11kmze1-MuiContainer-root"
+  >
+    <div>
+      Child component
+    </div>
+  </div>,
+  <footer
+    className="footer"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+    >
+      Bookap 2022
+    </span>
+  </footer>,
+]
+`;
